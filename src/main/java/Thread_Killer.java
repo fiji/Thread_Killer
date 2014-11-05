@@ -1,9 +1,7 @@
 import ij.IJ;
 import ij.ImagePlus;
 import ij.WindowManager;
-
 import ij.gui.GenericDialog;
-
 import ij.plugin.PlugIn;
 
 public class Thread_Killer implements PlugIn {
