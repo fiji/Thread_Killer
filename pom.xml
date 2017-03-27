@@ -74,8 +74,8 @@
 		<url>https://github.com/fiji/Thread_Killer/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Thread_Killer/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/Thread_Killer</url>
 	</ciManagement>
 
 	<properties>
