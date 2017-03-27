@@ -6,17 +6,31 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>sc.fiji</groupId>
-		<artifactId>pom-fiji</artifactId>
-		<version>6.1.3</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>14.0.0</version>
 		<relativePath />
 	</parent>
 
+	<groupId>sc.fiji</groupId>
 	<artifactId>Thread_Killer</artifactId>
 	<version>2.0.1-SNAPSHOT</version>
 
-	<name>plugins/Thread_Killer.jar</name>
-	<description></description>
+	<name>Thread Killer</name>
+	<description>Thread Killer plugin for Fiji.</description>
+	<url>https://imagej.net/Thread_Killer</url>
+	<inceptionYear>2010</inceptionYear>
+	<organization>
+		<name>Fiji</name>
+		<url>https://fiji.sc/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>GNU General Public License v3+</name>
+			<url>https://www.gnu.org/licenses/gpl.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
@@ -42,6 +56,13 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Thread_Killer</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Thread_Killer</developerConnection>
@@ -56,6 +77,11 @@
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/Thread_Killer/</url>
 	</ciManagement>
+
+	<properties>
+		<license.licenseName>gpl_v3</license.licenseName>
+		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
+	</properties>
 
 	<repositories>
 		<!-- NB: for project parent -->
