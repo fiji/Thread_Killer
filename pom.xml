@@ -61,7 +61,7 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/Thread_Killer</connection>
+		<connection>scm:git:https://github.com/fiji/Thread_Killer</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Thread_Killer</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Thread_Killer</url>
